@@ -1,0 +1,64 @@
+\documentclass[a4paper,10pt]{article}
+%\documentclass[a4paper,10pt]{scrartcl}
+
+\usepackage[utf8]{inputenc}
+\usepackage{amsfonts}
+
+\title{Mathe - Wiederholung Logarithmusfunktionen}
+\author{Maximilian Penke, Avidan Rosade}
+\date{Januar 2024}
+
+\pdfinfo{%
+  /Title    (Mathe - Wiederholung Logarithmusfunktionen)
+  /Author   (Maximilian Penke, Avidan Rosade)
+  /Creator  ()
+  /Producer ()
+  /Subject  (Mathe)
+  /Keywords ()
+}
+
+\begin{document}
+    \maketitle
+
+    \section{Aufgabe - Definitionsbereich}
+        Geben sie den Definitionsbereich der Funktion $f_a$ an. $a \in {\mathbb{R}} \hspace{0.1cm}\wedge > 0$\\
+        \begin{tabular}{|c|}
+            \hline \\
+                $f_a (x) = {\frac {3} {4}} x \cdot ln({\frac {x}{a^2}})$ \\ \\
+            \hline
+        \end{tabular}
+
+    \section{Aufgabe - Ableiten von ln(x) Funktionen}
+
+        \begin{tabular}{|c|c|}
+            \hline
+                Funktion: & Hinweise:\\
+            \hline \\
+                $f_a (x) = {\frac {3} {4}} x \cdot ln({\frac {x}{a^2}})$ & $j(x) = ln(x), \hspace{1cm} j'(x) = {\frac {1}{x}}$\\ \\
+            \hline
+        \end{tabular}
+
+
+
+    \section{Aufgabe - Intigrieren von ln(x) Funktionen}
+        \hspace{0.5cm} [Zur Kontrolle: $ F_a (x) = {\frac {3} {8}} x^2 \cdot ln({\frac {x} {a^2}}) - {\frac {3} {16} x^2}$] \\
+        \def\dotfill#1{\cleaders\hbox to #1{.}\hfill}
+        \newcommand\dotline[2][.5em]{\leavevmode\hbox to #2{\dotfill{#1}\hfil}}
+
+        \underline{Hinweise:} \hspace{0.5cm}$\int u'(x) \cdot v(x) dx = u(x) \cdot v(x) - \int {u(x) \cdot v'(x)}  dx$
+
+        \begin{tabular}{ |c|c| }
+            \hline \\
+                $u(x)=$ \dotline[2pt]{120pt}  & $u'(x)=$ \dotline[2pt]{120pt} \\
+            \hline \\
+                $v(x)=$ \dotline[2pt]{120pt} & $v'(x)=$ \dotline[2pt]{120pt} \\
+            \hline
+        \end{tabular}
+
+    \section{Aufgabe - Fläche von Graphen}
+        Die Funktion $f_3$ stellet eine bestimmte Fläche aus einem Sachkontext dar. Diese Fläche wird durch eine Gerade $h(x)$, welche durch Zwei Punkte geht, nochmal geteilt. Wie hoch ist der Anteil der Eingeschlossenen Fläche der beiden Fuhnktionen an der eingeschlosenen Gesamtfläche von $f_3$. Stellen Sie den Ansatz auf.
+
+    \section{Aufgabe - Parrameter abhängiger Punkt}
+        Bestimmen Sie den Schnittpunkt der Parrameter abhängigen Funktion und der Geraden welche vom Punkt $A (0\vert 0)$zu $C (6 \vert -1.8)$ geht und durch die Funktion $h(x) = -0.3x$ Modeliert werden kann.
+
+\end{document}
