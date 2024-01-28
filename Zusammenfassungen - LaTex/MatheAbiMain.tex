@@ -81,8 +81,8 @@ Differenzialquotient:
 
 \paragraph{}
 
-\subsection{Ableitungsregeln und Ableitungsbegriff}
-\subsection{Integralrechnung}
+\subsection{Ableitungsregeln und Ableitungsbegriff}\label{Ableitungen}
+\subsection{Integralrechnung}\label{Integralrechnung}
 
 \subsection{Grenzwerte}
 \subsection{Definitionslücken}
@@ -90,7 +90,37 @@ Differenzialquotient:
 \paragraph{}
 Zur Rekonstruktion einer Funktion werden gewisse Bedingungen vorrausgesetzt, die in ein Gleichungssystem (siehe \ref{Gleichungssysteme}) umgewandelt werden können.
 Beispiel: Ein Helikopterflug kann annährend durch eine Parabel beschrieben werden (Zeit auf der x-Achse in Minuten, Höhe auf der Y-Achse in Kilometer). \\
-Der Helikopter erreicht seine maximale Flughöhe nach 20 Minuten. $ \rightarrow f'(20)=0 \rightarrow 40a+20b=0$
+Der Helikopter erreicht seine maximale Flughöhe von 10 nach 20 Minuten. ( $ \rightarrow f(20)=10 \rightarrow f'(20)=0 $ ) \\
+Der Helikopter hebt bei t=0 ab. ($ \rightarrow f(0)=0$) \\
+
+\[ I \quad 10=400a+20b+c \]
+\[ II \quad 0=40a+b \]
+\[ III \quad c=0 \]
+
+c=0 in I einsetzen:
+
+\[I \quad 10=400a+20b \quad |-400a \]
+\[ 10-400a=20b \quad | \div 20\]
+\[ 0.5-20a=b\]
+
+$b= 0.5-20a $ in II einsetzen:
+
+\[ 0=40a+(0.5-20a)\]
+\[ 0=20a+0.5 \quad |-0.5 \quad \div 20\]
+\[ a=-\frac{1}{40} \]
+
+$a=-\frac{1}{40}$ in I einsetzen:
+
+\[ I \quad 400(\frac{1}{40})+20b=10 \]
+\[ \frac{1}{10}+20b=10 \quad |-0.1 \quad \div 20\]
+\[ b=0.495\]
+
+Mit $a=-\frac{1}{40}$, $b=0.495$ und $c=0$, ergibt sich:
+
+\[f(x)=-\frac{1}{40}x^2+0.495x\]
+
+Das Aufstellen der Bedingungen kann auf verschiedenem Wege erfolgen. Auch Integrale und zweite Ableitungen können dabei eine Rolle spielen.
+Lies dazu am Besten \ref{Integralrechnung} und \ref{Ableitungen}.
 
 \section{Analytische Geometrie}
 \subsection{Zwei- bzw.dreidimensionales Koordinatensystem}
