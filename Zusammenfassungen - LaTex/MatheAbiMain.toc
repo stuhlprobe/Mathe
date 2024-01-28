@@ -2,21 +2,21 @@
 \contentsline {subsection}{\numberline {1.1}Gleichungen und Gleichungssysteme}{2}{}%
 \contentsline {paragraph}{Gleichung}{2}{}%
 \contentsline {paragraph}{Gleichungssysteme}{2}{}%
-\contentsline {subsection}{\numberline {1.2}Differenzialrechnung}{2}{}%
-\contentsline {paragraph}{Was ist Differenzialrechnung?}{2}{}%
-\contentsline {paragraph}{Steigerungsbestimmung von Funktionen über Intervalle}{2}{}%
-\contentsline {paragraph}{}{2}{}%
-\contentsline {subsection}{\numberline {1.3}Ableitungsregeln und Ableitungsbegriff}{3}{}%
-\contentsline {subsection}{\numberline {1.4}Integralrechnung}{3}{}%
-\contentsline {section}{\numberline {2}Analytische Geometrie}{3}{}%
-\contentsline {subsection}{\numberline {2.1}Zwei- bzw.dreidimensionales Koordinatensystem}{3}{}%
-\contentsline {subsection}{\numberline {2.2}Vektoren im Anschauungsraum}{3}{}%
-\contentsline {subsection}{\numberline {2.3}Affine Geometrie}{3}{}%
-\contentsline {subsection}{\numberline {2.4}Metrische Geometrie}{3}{}%
-\contentsline {section}{\numberline {3}Stochastik}{3}{}%
-\contentsline {subsection}{\numberline {3.1}Einführung in die Stochastik}{3}{}%
-\contentsline {subsection}{\numberline {3.2}Zufallsgrößen und deren Wahrscheinlichkeitsverteilung}{3}{}%
-\contentsline {subsection}{\numberline {3.3}Bernoulli-Ketten und Binomialverteilung als spezielle diskrete Wahrscheinlichkeitsverteilung}{3}{}%
-\contentsline {subsection}{\numberline {3.4}Normalverteilung als spezielle stetige Wahrscheinlichkeitsverteilung}{3}{}%
-\contentsline {subsection}{\numberline {3.5}Bedingte Wahrscheinlichkeiten}{3}{}%
-\contentsline {subsection}{\numberline {3.6}Methoden der beurteilenden Statistik}{3}{}%
+\contentsline {subsection}{\numberline {1.2}Differenzialrechnung}{3}{}%
+\contentsline {paragraph}{Was ist Differenzialrechnung?}{3}{}%
+\contentsline {paragraph}{Steigerungsbestimmung von Funktionen über Intervalle}{3}{}%
+\contentsline {paragraph}{}{3}{}%
+\contentsline {subsection}{\numberline {1.3}Ableitungsregeln und Ableitungsbegriff}{4}{}%
+\contentsline {subsection}{\numberline {1.4}Integralrechnung}{4}{}%
+\contentsline {section}{\numberline {2}Analytische Geometrie}{4}{}%
+\contentsline {subsection}{\numberline {2.1}Zwei- bzw.dreidimensionales Koordinatensystem}{4}{}%
+\contentsline {subsection}{\numberline {2.2}Vektoren im Anschauungsraum}{4}{}%
+\contentsline {subsection}{\numberline {2.3}Affine Geometrie}{4}{}%
+\contentsline {subsection}{\numberline {2.4}Metrische Geometrie}{4}{}%
+\contentsline {section}{\numberline {3}Stochastik}{4}{}%
+\contentsline {subsection}{\numberline {3.1}Einführung in die Stochastik}{4}{}%
+\contentsline {subsection}{\numberline {3.2}Zufallsgrößen und deren Wahrscheinlichkeitsverteilung}{4}{}%
+\contentsline {subsection}{\numberline {3.3}Bernoulli-Ketten und Binomialverteilung als spezielle diskrete Wahrscheinlichkeitsverteilung}{4}{}%
+\contentsline {subsection}{\numberline {3.4}Normalverteilung als spezielle stetige Wahrscheinlichkeitsverteilung}{4}{}%
+\contentsline {subsection}{\numberline {3.5}Bedingte Wahrscheinlichkeiten}{4}{}%
+\contentsline {subsection}{\numberline {3.6}Methoden der beurteilenden Statistik}{4}{}%
