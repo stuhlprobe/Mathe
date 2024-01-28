@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.12) (preloaded format=pdflatex 2024.1.23)  28 JAN 2024 18:10
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.12) (preloaded format=pdflatex 2024.1.23)  28 JAN 2024 18:32
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -186,31 +186,31 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 
 
 {C:/Users/Atom/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]
-Overfull \hbox (18.9107pt too wide) in paragraph at lines 26--28
+Overfull \hbox (18.9107pt too wide) in paragraph at lines 26--29
  \OT1/cmr/bx/n/10 Gle-ichung[] \OT1/cmr/m/n/10 Eine Gle-ichung beschreibt das Verh^^?altnis von zwei Ter-men mit einem sog. Gle-ichung-sop-er-a-tor ($=$,$\OML/cmm/m/it/10 <$\OT1/cmr/m/n/10 ,$\OML/cmm/m/it/10 >$\OT1/cmr/m/n/10 ,$\OML/cmm/m/it/10 <\OT1/cmr/m/n/10 =$,$\OML/cmm/m/it/10 >\OT1/cmr/m/n/10 =$,$\OMS/cmsy/m/n/10 6\OT1/cmr/m/n/10 =$).
  []
 
-
-Overfull \hbox (37.66937pt too wide) in paragraph at lines 95--95
+[2]
+Overfull \hbox (37.66937pt too wide) in paragraph at lines 104--104
 []\OT1/cmr/bx/n/12 Bernoulli-Ketten und Bi-no-mi-alverteilung als spezielle diskrete Wahrschein-lichkeitsverteilung 
  []
 
-[2] [3] (MatheAbiMain.aux)
+[3] (MatheAbiMain.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-04>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 1877 strings out of 474485
- 31253 string characters out of 5744206
- 1936542 words of memory out of 5000000
- 24181 multiletter control sequences out of 15000+600000
+ 1879 strings out of 474485
+ 31288 string characters out of 5744206
+ 1935542 words of memory out of 5000000
+ 24183 multiletter control sequences out of 15000+600000
  562931 words of font info for 52 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  57i,6n,65p,471b,199s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/Atom/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/Atom/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/Atom/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx9.pfb><C:/Users/Atom/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/Atom/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/Atom/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/Atom/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/Atom/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/Atom/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr5.pfb><C:/Users/Atom/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/Atom/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Users/Atom/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Atom/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb>
-Output written on MatheAbiMain.pdf (3 pages, 175278 bytes).
+Output written on MatheAbiMain.pdf (3 pages, 173843 bytes).
 PDF statistics:
  77 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
