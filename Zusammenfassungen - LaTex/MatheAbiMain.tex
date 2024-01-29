@@ -1,6 +1,8 @@
 \documentclass{article}
 \usepackage{graphicx} % Required for inserting images
 \usepackage{geometry}
+\usepackage{pgfplots}
+\usepackage{float}
 
 \title{Mathematik - Zusammenfassung fürs Abitur}
 \author{Maximilian Penke}
@@ -69,6 +71,19 @@ Der Graph einer Funktion ist die visuelle Abbildung der Funktion. In der Schule 
 
 \end{enumerate}
 
+\subsubsection{Spezielle Punkte}\label{Spezielle Punkte}
+
+Generell gilt: immer den x-Wert herausfinden, wenn gefordert den y-Wert herausfinden. Dazu x in f(x) einsetzen.
+
+\begin{enumerate}
+    \item Nullstellen: $f(x)=0$
+    \item Y-Achsenabschnitt: $x=0 \rightarrow y=f(0)$
+    \item Tiefpunkt: $f'(x)=0$, $f''(x)>0$
+    \item Hochpunkt: $f'(x)=0$, $f''(x)<0$
+    \item Wendepunkt: $f''(x)=0$, $f'''(x)\neq 0$.
+    \item Sattelpunkt: $f'(x)=0$, $f''(x)=0$
+\end{enumerate}
+
 \subsection{Funktionsscharen}
 
 Funktionen müssen nicht nur einen Eingabewert haben. Eine Funktion $f$ kann auch von mehreren Werten abhängen.
@@ -89,9 +104,42 @@ verläuft durch den Punkt (5|8). Berechne a.
 
 \subsubsection{Berechnung typischer Punkte in Abhängigkeit vom Parameter}
 Eine Funktionsschar hat meistens Nullstellen, einen Y-Achsenabschnitt und Extrempunkte. Die Position dieser,
-hängt von dem Scharparameter ab. 
+hängt von dem Scharparameter ab. Die Berechnung typischer Punkte erfolgt auf die exakt selbe Art und Weise,
+wie bei normalen Funktionen (siehe \ref{Spezielle Punkte})
 
 \subsubsection{Ortskurve}
+
+Die Ortskurveist eine Funktion, auf der alle Extrempunkte der Scharfunktionen einer Funktionsschar liegen. Beispiel:
+
+\begin{figure}[H]
+\centering
+\begin{tikzpicture}
+    \begin{axis}[
+        axis lines = center,
+        xlabel = \(x\),
+        ylabel = {\(f(x)\)},
+    ]
+    %Below the red parabola is defined
+    \addplot [
+        domain=-10:10, 
+        samples=100, 
+        color=blue,
+    ]
+    {x^2 - 2*x - 1};
+    \addlegendentry{\(x^2 - 2x - 1\)}
+    %Here the blue parabola is defined
+    \addplot [
+        domain=-10:10, 
+        samples=100, 
+        color=blue,
+        ]
+        {x^2 + 2*x + 1};
+    \addlegendentry{\(x^2 + 2x + 1\)}
+    
+\end{axis}
+\end{tikzpicture}
+\end{figure}    
+
 \subsubsection{Gemeinsame Punkte}
 
 \subsection{Differenzialrechnung}

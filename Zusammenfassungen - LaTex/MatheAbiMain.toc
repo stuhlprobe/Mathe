@@ -3,30 +3,31 @@
 \contentsline {paragraph}{Gleichung}{2}{}%
 \contentsline {paragraph}{Gleichungssysteme}{2}{}%
 \contentsline {subsection}{\numberline {1.2}Funktionen}{2}{}%
+\contentsline {subsubsection}{\numberline {1.2.1}Spezielle Punkte}{3}{}%
 \contentsline {subsection}{\numberline {1.3}Funktionsscharen}{3}{}%
 \contentsline {subsubsection}{\numberline {1.3.1}Bestimmung des Parameter mit gegebenem x und y}{3}{}%
 \contentsline {subsubsection}{\numberline {1.3.2}Berechnung typischer Punkte in Abhängigkeit vom Parameter}{3}{}%
 \contentsline {subsubsection}{\numberline {1.3.3}Ortskurve}{3}{}%
-\contentsline {subsubsection}{\numberline {1.3.4}Gemeinsame Punkte}{3}{}%
-\contentsline {subsection}{\numberline {1.4}Differenzialrechnung}{3}{}%
-\contentsline {paragraph}{Was ist Differenzialrechnung?}{3}{}%
-\contentsline {paragraph}{Steigerungsbestimmung von Funktionen über Intervalle}{3}{}%
-\contentsline {paragraph}{}{3}{}%
-\contentsline {subsection}{\numberline {1.5}Ableitungsregeln und Ableitungsbegriff}{3}{}%
-\contentsline {subsection}{\numberline {1.6}Integralrechnung}{3}{}%
-\contentsline {subsection}{\numberline {1.7}Grenzwerte}{3}{}%
-\contentsline {subsection}{\numberline {1.8}Definitionsbereich und Definitionslücken}{3}{}%
-\contentsline {subsection}{\numberline {1.9}Rekonstruktion}{3}{}%
-\contentsline {paragraph}{}{3}{}%
-\contentsline {section}{\numberline {2}Analytische Geometrie}{4}{}%
-\contentsline {subsection}{\numberline {2.1}Zwei- bzw. Drei-dimensionales (kartesisches) Koordinatensystem}{4}{}%
-\contentsline {subsection}{\numberline {2.2}Vektoren im Anschauungsraum}{4}{}%
-\contentsline {subsection}{\numberline {2.3}Affine Geometrie}{4}{}%
-\contentsline {subsection}{\numberline {2.4}Metrische Geometrie}{4}{}%
-\contentsline {section}{\numberline {3}Stochastik}{4}{}%
-\contentsline {subsection}{\numberline {3.1}Einführung in die Stochastik}{4}{}%
-\contentsline {subsection}{\numberline {3.2}Zufallsgrößen und deren Wahrscheinlichkeitsverteilung}{4}{}%
-\contentsline {subsection}{\numberline {3.3}Bernoulli-Ketten und Binomialverteilung als spezielle diskrete Wahrscheinlichkeitsverteilung}{4}{}%
-\contentsline {subsection}{\numberline {3.4}Normalverteilung als spezielle stetige Wahrscheinlichkeitsverteilung}{4}{}%
-\contentsline {subsection}{\numberline {3.5}Bedingte Wahrscheinlichkeiten}{4}{}%
-\contentsline {subsection}{\numberline {3.6}Methoden der beurteilenden Statistik}{4}{}%
+\contentsline {subsubsection}{\numberline {1.3.4}Gemeinsame Punkte}{4}{}%
+\contentsline {subsection}{\numberline {1.4}Differenzialrechnung}{4}{}%
+\contentsline {paragraph}{Was ist Differenzialrechnung?}{4}{}%
+\contentsline {paragraph}{Steigerungsbestimmung von Funktionen über Intervalle}{4}{}%
+\contentsline {paragraph}{}{4}{}%
+\contentsline {subsection}{\numberline {1.5}Ableitungsregeln und Ableitungsbegriff}{4}{}%
+\contentsline {subsection}{\numberline {1.6}Integralrechnung}{4}{}%
+\contentsline {subsection}{\numberline {1.7}Grenzwerte}{4}{}%
+\contentsline {subsection}{\numberline {1.8}Definitionsbereich und Definitionslücken}{4}{}%
+\contentsline {subsection}{\numberline {1.9}Rekonstruktion}{4}{}%
+\contentsline {paragraph}{}{4}{}%
+\contentsline {section}{\numberline {2}Analytische Geometrie}{5}{}%
+\contentsline {subsection}{\numberline {2.1}Zwei- bzw. Drei-dimensionales (kartesisches) Koordinatensystem}{5}{}%
+\contentsline {subsection}{\numberline {2.2}Vektoren im Anschauungsraum}{5}{}%
+\contentsline {subsection}{\numberline {2.3}Affine Geometrie}{5}{}%
+\contentsline {subsection}{\numberline {2.4}Metrische Geometrie}{5}{}%
+\contentsline {section}{\numberline {3}Stochastik}{5}{}%
+\contentsline {subsection}{\numberline {3.1}Einführung in die Stochastik}{5}{}%
+\contentsline {subsection}{\numberline {3.2}Zufallsgrößen und deren Wahrscheinlichkeitsverteilung}{5}{}%
+\contentsline {subsection}{\numberline {3.3}Bernoulli-Ketten und Binomialverteilung als spezielle diskrete Wahrscheinlichkeitsverteilung}{5}{}%
+\contentsline {subsection}{\numberline {3.4}Normalverteilung als spezielle stetige Wahrscheinlichkeitsverteilung}{5}{}%
+\contentsline {subsection}{\numberline {3.5}Bedingte Wahrscheinlichkeiten}{5}{}%
+\contentsline {subsection}{\numberline {3.6}Methoden der beurteilenden Statistik}{5}{}%
