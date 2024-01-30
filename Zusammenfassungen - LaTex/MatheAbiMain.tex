@@ -2,6 +2,7 @@
 \usepackage{graphicx} % Required for inserting images
 \usepackage{geometry}
 \usepackage{pgfplots}
+<<<<<<< HEAD
 	\pgfplotsset{width=8cm, compat=1.9}
 	\usepackage{tikz}
 	% We will externalize the figures
@@ -10,6 +11,9 @@
 	\usepgfplotslibrary{fillbetween}
 	
 \usepackage{multicol}
+=======
+\usepackage{float}
+>>>>>>> a3d9df66a0422b892d6552d2fbb6390c4b8811f8
 
 \title{Mathematik - Zusammenfassung fürs Abitur}
 \author{Maximilian Penke}
@@ -42,6 +46,7 @@
 			\[ II \quad -2a+b=5\]
 			\[ III \quad c-10=0\]
 
+<<<<<<< HEAD
 			Mit einem solchen Gleichungssystem sind wir in der Lage, die Werte der Variablen herauszufinden.  An unserem Beispiel würde das wie folgt aussehen:
 			
 			\[ III \quad c-10=0 \quad | +10 \]
@@ -64,6 +69,9 @@
 			Also ist $a=5.5$, $b=-18.75$, $c=10$
 			
 			Gleichungsysteme können auch zur Rekonstruktion von Funktionen verwendet werden (siehe \ref{Rekonstruktion}). 
+=======
+Mit einem solchen Gleichungssystem sind wir in der Lage, die Werte der Variablen herauszufinden. An unserem Beispiel würde das wie folgt aussehen:
+>>>>>>> a3d9df66a0422b892d6552d2fbb6390c4b8811f8
 
 	\subsection{Differenzialrechnung}
 		\paragraph{Was ist Differenzialrechnung?}
@@ -71,6 +79,7 @@
 			Man kann mit ihr ebenfalls Steigungsänderungen bestimmen.
 		\paragraph{Steigerungsbestimmung von Funktionen über Intervalle}
 
+<<<<<<< HEAD
 			Um die Steigung von Funktionen über Intervalle zu betrachten sind typische Steigungsdreiecke praktisch,
 			da man sie visuell gut darstellen kann und sie ein Werkzeug sind welches in der Mittelstuffe bereits
 			Verwendung gefunden hat.
@@ -84,14 +93,167 @@
 			\[
 			    m = \lim_{x \to x_{0}} {{f(x_{0}) - f(x)} \over { x_{0} - x}}
 			\]
+=======
+Also ist $a=5.5$, $b=-18.75$, $c=10$
+
+Gleichungsysteme können auch zur Rekonstruktion von Funktionen verwendet werden (siehe \ref{Rekonstruktion}). 
+
+\subsection{Funktionen}
+Eine mathematische Funktion $f$ ordnet jedem Wert $x$ in ihrem Definitionsbereich (siehe \ref{Definitionsbereich})
+einen Wert $y$ zu. Sie wird denotiert mit der Formulierung $y=f(x)= $ die Definition der Funktion (z.B. $x^2-5x+6$).
+Der Graph einer Funktion ist die visuelle Abbildung der Funktion. In der Schule kennen wir 5 Arten von Funktionen:
+\begin{enumerate}
+    \item Polynomfunktionen ($ax+bx^2+cx^3+...+nx^m$)
+    \item Wurzelfunktionen ($ \sqrt[3]{x} $ mit $ (\sqrt[3]{x})^3=x $. Statt x kann auch eine Funktion im Radikant stehen.)
+    \item Exponentialfunktionen ($a^{x}$, häufiger $n \cdot e^x$, e ist die sog. \emph{Eulersche Zahl}. Statt x kann auch eine Funktion im Exponent stehen.)
+    \item Logarithmusfunktionen ($log_2(x)$, häufiger $n \cdot ln(x)$, mit $e^{ln(x)}=x$. Statt x kann auch eine Funktion im Radikant stehen.)
+    \item Gebrochenrationale Funktionen ($\frac{1}{g(x)}$, $g(x)$ kann jede beliebige Funktion sein.)
+
+\end{enumerate}
+
+\subsubsection{Spezielle Punkte}\label{Spezielle Punkte}
+
+Generell gilt: immer den x-Wert herausfinden, wenn gefordert den y-Wert herausfinden. Dazu x in f(x) einsetzen.
+
+\begin{enumerate}
+    \item Nullstellen: $f(x)=0$
+    \item Y-Achsenabschnitt: $x=0 \rightarrow y=f(0)$
+    \item Tiefpunkt: $f'(x)=0$, $f''(x)>0$
+    \item Hochpunkt: $f'(x)=0$, $f''(x)<0$
+    \item Wendepunkt: $f''(x)=0$, $f'''(x)\neq 0$.
+    \item Sattelpunkt: $f'(x)=0$, $f''(x)=0$
+\end{enumerate}
+
+\subsection{Funktionsscharen}
+
+Funktionen müssen nicht nur einen Eingabewert haben. Eine Funktion $f$ kann auch von mehreren Werten abhängen.
+Das Volumen $V$ eines Quaders beispielsweise, hängt von der Länge, Breite und Tiefe des Quaders ab.
+Also ist das Volumen: $V(l,b,t)=l \cdot b \cdot t$. Im Abitur werden solche Funktionen allerdings nicht verwendet.
+Stattdessen gibt es \emph{Funktionsscharen}. Diese haben einen zweiten Parameter, der Scharparameter genannt wird.
+Eine Funktionsschar wird wie folgt geschrieben: $y=f_a(x)$ mit a als Scharparameter. Setzt man für a einen Wert ein,
+so erhält man eine Scharfunktion der Funktionsschar. Eine Scharfunktion mit $a=2$: $y=f_2(x)$.
+
+\subsubsection{Bestimmung des Parameter mit gegebenem x und y}
+Häufig sind x, y und die Funktion gegeben und es gilt den Scharparameter herauszufinden. Dazu setzt man jeden bekannten
+Wert ein und stellt nach a um. Beispiel: Eine Scharfunktion der Funktionsschar $f_a(x)=2^{x-a}$
+verläuft durch den Punkt (5|8). Berechne a.
+
+\[ 8=2^{5-a} \quad | log_2() \]
+\[ 3=5-a \quad | +a \quad -3 \]
+\[ a=2 \]
+
+\subsubsection{Berechnung typischer Punkte in Abhängigkeit vom Parameter}
+Eine Funktionsschar hat meistens Nullstellen, einen Y-Achsenabschnitt und Extrempunkte. Die Position dieser,
+hängt von dem Scharparameter ab. Die Berechnung typischer Punkte erfolgt auf die exakt selbe Art und Weise,
+wie bei normalen Funktionen (siehe \ref{Spezielle Punkte})
+
+\subsubsection{Ortskurve}
+
+Die Ortskurveist eine Funktion, auf der alle Extrempunkte der Scharfunktionen einer Funktionsschar liegen. Beispiel:
+
+\begin{figure}[H]
+\centering
+\begin{tikzpicture}
+    \begin{axis}[
+        axis lines = center,
+        xlabel = \(x\),
+        ylabel = {\(f(x)\)},
+    ]
+    %Below the red parabola is defined
+    \addplot [
+        domain=-10:10, 
+        samples=100, 
+        color=blue,
+    ]
+    {x^2 - 2*x - 1};
+    \addlegendentry{\(x^2 - 2x - 1\)}
+    %Here the blue parabola is defined
+    \addplot [
+        domain=-10:10, 
+        samples=100, 
+        color=blue,
+        ]
+        {x^2 + 2*x + 1};
+    \addlegendentry{\(x^2 + 2x + 1\)}
+    
+\end{axis}
+\end{tikzpicture}
+\end{figure}    
+
+\subsubsection{Gemeinsame Punkte}
+
+\subsection{Differenzialrechnung}
+\paragraph{Was ist Differenzialrechnung?}
+
+Um lokale Änderungen/Steigungen von Falsunktionen zu bestimmen kann man die Differenzialrechnung verwenden.
+Man kann mit ihr ebenfalls Steigungsänderungen bestimmen.
+\paragraph{Steigerungsbestimmung von Funktionen über Intervalle}
+
+Um die Steigung von Funktionen über Intervalle zu betrachten sind typische Steigungsdreiecke praktisch,
+da man sie visuell gut darstellen kann und sie ein Werkzeug sind welches in der Mittelstuffe bereits
+Verwendung gefunden hat.
+
+Differenzenquotient:
+\[
+    m = {\frac {\Delta y} {\Delta x}}
+\]
+
+Differenzialquotient:
+\[
+    m = \lim_{x \to x_{0}} {{f(x_{0}) - f(x)} \over { x_{0} - x}}
+\]
+>>>>>>> a3d9df66a0422b892d6552d2fbb6390c4b8811f8
 
 
 
 		\paragraph{}
 
+<<<<<<< HEAD
 	\subsection{Ableitungsregeln und Ableitungsbegriff}\label{Ableitungen}
 	
 	\subsection{Integralrechnung}\label{Integralrechnung}
+=======
+\subsection{Ableitungsregeln und Ableitungsbegriff}\label{Ableitungen}
+\subsection{Integralrechnung}\label{Integralrechnung}
+
+\subsection{Grenzwerte}
+\subsection{Definitionsbereich und Definitionslücken}\label{Definitionsbereich}
+\subsection{Rekonstruktion}\label{Rekonstruktion}
+\paragraph{}
+Zur Rekonstruktion einer Funktion werden gewisse Bedingungen vorrausgesetzt, die in ein Gleichungssystem (siehe \ref{Gleichungssysteme}) umgewandelt werden können.
+Beispiel: Ein Helikopterflug kann annährend durch eine Parabel beschrieben werden (Zeit auf der x-Achse in Minuten, Höhe auf der Y-Achse in Kilometer). \\
+Der Helikopter erreicht seine maximale Flughöhe von 10 nach 20 Minuten. ( $ \rightarrow f(20)=10 \rightarrow f'(20)=0 $ ) \\
+Der Helikopter hebt bei t=0 ab. ($ \rightarrow f(0)=0$) \\
+
+\[ I \quad 10=400a+20b+c \]
+\[ II \quad 0=40a+b \]
+\[ III \quad c=0 \]
+
+c=0 in I einsetzen:
+
+\[I \quad 10=400a+20b \quad |-400a \]
+\[ 10-400a=20b \quad | \div 20\]
+\[ 0.5-20a=b\]
+
+$b= 0.5-20a $ in II einsetzen:
+
+\[ 0=40a+(0.5-20a)\]
+\[ 0=20a+0.5 \quad |-0.5 \quad \div 20\]
+\[ a=-\frac{1}{40} \]
+
+$a=-\frac{1}{40}$ in I einsetzen:
+
+\[ I \quad 400(\frac{1}{40})+20b=10 \]
+\[ \frac{1}{10}+20b=10 \quad |-0.1 \quad \div 20\]
+\[ b=0.495\]
+
+Mit $a=-\frac{1}{40}$, $b=0.495$ und $c=0$, ergibt sich:
+
+\[f(x)=-\frac{1}{40}x^2+0.495x\]
+
+Das Aufstellen der Bedingungen kann auf verschiedenem Wege erfolgen. Auch Integrale und zweite Ableitungen können dabei eine Rolle spielen.
+Lies dazu am Besten \ref{Integralrechnung} und \ref{Ableitungen}.
+>>>>>>> a3d9df66a0422b892d6552d2fbb6390c4b8811f8
 
 	\subsection{Grenzwerte}
 		\paragraph{Was sind Grenzwerte?} \label{Definitionsbereich}
@@ -210,7 +372,7 @@
 			Lies dazu am Besten \ref{Integralrechnung} und \ref{Ableitungen}.
 		
 \section{Analytische Geometrie}
-\subsection{Zwei- bzw.dreidimensionales Koordinatensystem}
+\subsection{Zwei- bzw. Drei-dimensionales (kartesisches) Koordinatensystem}
 \subsection{Vektoren im Anschauungsraum}
 \subsection{Affine Geometrie}
 \subsection{Metrische Geometrie}
