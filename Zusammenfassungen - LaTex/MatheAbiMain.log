@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Arch Linux) (preloaded format=pdflatex 2024.1.21)  29 JAN 2024 14:57
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Arch Linux) (preloaded format=pdflatex 2024.1.21)  29 JAN 2024 21:11
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -733,12 +733,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 156--157
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 168--172
+Underfull \hbox (badness 10000) in paragraph at lines 178--182
 
  []
 
 [3]
-Overfull \hbox (37.66937pt too wide) in paragraph at lines 211--211
+Overfull \hbox (37.66937pt too wide) in paragraph at lines 221--221
 []\OT1/cmr/bx/n/12 Bernoulli-Ketten und Bi-no-mi-alverteilung als spezielle dis
 krete Wahrschein-lichkeitsverteilung 
  []
@@ -763,7 +763,7 @@ are/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/share/texmf-dist/f
 onts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texmf-dist/fonts/type1/publi
 c/amsfonts/cm/cmr9.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cm
 sy10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb>
-Output written on MatheAbiMain.pdf (5 pages, 191211 bytes).
+Output written on MatheAbiMain.pdf (5 pages, 191534 bytes).
 PDF statistics:
  88 PDF objects out of 1000 (max. 8388607)
  54 compressed objects within 1 object stream
