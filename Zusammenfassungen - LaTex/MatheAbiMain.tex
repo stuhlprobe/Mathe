@@ -109,7 +109,7 @@ wie bei normalen Funktionen (siehe \ref{Spezielle Punkte})
 
 \subsubsection{Ortskurve}
 
-Die Ortskurveist eine Funktion, auf der alle Extrempunkte der Scharfunktionen einer Funktionsschar liegen. Beispiel:
+Die Ortskurve ist eine Funktion, auf der alle Extrempunkte der Scharfunktionen einer Funktionsschar liegen. Beispiel:
 
 \begin{figure}[H]
 \centering
@@ -125,16 +125,66 @@ Die Ortskurveist eine Funktion, auf der alle Extrempunkte der Scharfunktionen ei
         samples=100, 
         color=blue,
     ]
-    {x^2 - 2*x - 1};
-    \addlegendentry{\(x^2 - 2x - 1\)}
+    {x^2 - 2*x};
     %Here the blue parabola is defined
     \addplot [
         domain=-10:10, 
         samples=100, 
         color=blue,
         ]
-        {x^2 + 2*x + 1};
-    \addlegendentry{\(x^2 + 2x + 1\)}
+        {x^2 + 2*x};
+    \addplot [
+        domain=-10:10, 
+        samples=100, 
+        color=blue,
+    ]
+    {x^2 - x};
+    %Here the blue parabola is defined
+    \addplot [
+        domain=-10:10, 
+        samples=100, 
+        color=blue,
+        ]
+        {x^2 + x};
+    \addplot [
+        domain=-10:10, 
+        samples=100, 
+        color=blue,
+    ]
+    {x^2 - 3*x};
+    %Here the blue parabola is defined
+    \addplot [
+        domain=-10:10, 
+        samples=100, 
+        color=blue,
+        ]
+        {x^2 +3*x};
+        \addplot [
+            domain=-10:10, 
+            samples=100, 
+            color=blue,
+            ]
+            {x^2 + 4*x};
+        \addplot [
+            domain=-10:10, 
+            samples=100, 
+            color=blue,
+        ]
+        {x^2 - 4*x};
+        \addplot [
+        domain=-10:10, 
+        samples=100, 
+        color=blue,
+        ]
+        {x^2};
+    \addlegendentry{\(x^2 + ax\)}
+    \addplot [
+        domain=-4:4, 
+        samples=100,
+        color=red,
+    ]
+    {-x^2};
+    \addlegendentry{\(-x^2\)}
     
 \end{axis}
 \end{tikzpicture}
